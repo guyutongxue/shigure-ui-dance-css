@@ -1,0 +1,18 @@
+@import url('./transition.css');
+
+:root {
+  color-scheme: light;
+  --bg-color: white;
+  --text-color: black;
+}
+
+.dark {
+  color-scheme: dark;
+  --bg-color: black;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

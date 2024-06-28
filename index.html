@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My webpage</title>
+    <link rel="stylesheet" href="theme.css" />
+  </head>
+  <body>
+    <article>
+      <h2>Lorem Ipsum</h2>
+      <button id="switchTheme">Click me</button>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+        convallis volutpat sem, eu pharetra mauris ullamcorper et. Mauris cursus
+        tincidunt faucibus. Integer feugiat varius nibh in faucibus. Nulla
+        mollis velit non aliquam lobortis. Morbi pellentesque et erat aliquet
+        dapibus. Nam lobortis ipsum at ex hendrerit, vel porta ante suscipit.
+        Sed a nisi imperdiet, egestas sem pulvinar, commodo justo. Curabitur at
+        elit ut dui sagittis elementum. Sed porta tempor suscipit. Aliquam in
+        erat maximus neque mattis mollis in vel enim. Fusce felis sapien,
+        laoreet sit amet velit id, viverra malesuada sem. Phasellus in ante sit
+        amet justo ullamcorper cursus. Donec placerat volutpat mauris id
+        placerat. Mauris eget pretium mauris, rhoncus gravida nisl. Praesent
+        lectus libero, vehicula id ultrices ut, auctor in justo. Donec ornare
+        finibus lorem in tempor.
+      </p>
+      <p>
+        Aliquam dapibus aliquam blandit. Pellentesque sed malesuada magna. Etiam
+        dolor metus, mattis fringilla rhoncus in, ullamcorper a eros. Curabitur
+        nec velit sed libero fringilla elementum at sit amet lorem. Suspendisse
+        non interdum justo. Curabitur posuere sed justo et bibendum. Sed
+        interdum dolor quis orci congue dignissim. Praesent porta, mauris
+        feugiat hendrerit vestibulum, nisl lacus elementum mi, dignissim
+        tristique nulla purus vitae neque. Ut massa nisl, fermentum at dignissim
+        in, faucibus at lacus. In semper laoreet quam ac hendrerit.
+      </p>
+      <p>
+        Etiam congue, nunc ut dictum mollis, nunc nisl sollicitudin dolor, et
+        eleifend sem ante nec odio. Ut gravida lectus eget eros pulvinar, ac
+        blandit lorem consectetur. Duis lacinia maximus dolor sed vehicula. Sed
+        ac leo consequat, condimentum risus quis, suscipit eros. Aenean et
+        pulvinar urna. Morbi efficitur nulla vestibulum odio aliquam, nec
+        molestie sem convallis. Duis eget tincidunt arcu. Praesent vel augue sit
+        amet sapien tincidunt commodo at eget nisl. Maecenas sed tellus lorem.
+        Ut eu quam pretium, ornare quam id, sodales dui.
+      </p>
+      <p>
+        Suspendisse bibendum ante non pharetra tincidunt. Phasellus vitae
+        bibendum felis. Phasellus tempor tortor lorem, fringilla feugiat lectus
+        pharetra quis. Quisque aliquam augue nec neque sagittis pulvinar.
+        Vivamus urna dui, interdum quis risus commodo, tempus tristique nisl.
+        Donec ornare dictum est ultricies efficitur. Integer eu ex vel mauris
+        blandit efficitur et sit amet urna.
+      </p>
+      <p>
+        Maecenas semper lorem dui, pharetra porta arcu ornare eu. Pellentesque
+        quis velit dui. Fusce id consequat nisi. Phasellus venenatis dignissim
+        sapien. Etiam sed purus vel sem venenatis convallis. Sed semper dictum
+        ex non tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus
+        et ultrices posuere cubilia curae; Fusce sagittis mauris sed sem rutrum,
+        at varius dolor molestie. Aliquam erat volutpat. Aliquam sed iaculis
+        sapien. Aenean tincidunt eros est, eu iaculis arcu ornare in.
+      </p>
+    </article>
+    <script>
+      document.querySelector("#switchTheme").addEventListener("click", () => {
+        document.startViewTransition(() => {
+          document.documentElement.classList.toggle("dark");
+        });
+      });
+    </script>
+  </body>
+</html>
