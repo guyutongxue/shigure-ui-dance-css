@@ -17,10 +17,10 @@
     mask-size: 0;
   }
   10% {
-    mask-size: 80vmin;
+    mask-size: 90vmin;
   }
   90% {
-    mask-size: 80vmin;
+    mask-size: 90vmin;
   }
   100% {
     mask-size: 9999px;
