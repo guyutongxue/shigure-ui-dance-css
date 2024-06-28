@@ -4,9 +4,10 @@ Transition your CSS color theme with Shigure Ui-chan's dance. Inspired by [Salty
 
 - Original Animation/Illustration by [ががめ](https://x.com/utsugame).
 - Preprocessed the video with following tools:
-  - [FFmpeg](https://ffmpeg.org/)
-  - [GIMP](https://www.gimp.org/)
-  - [ImageMagick](https://imagemagick.org/)
+  - [FFmpeg](https://ffmpeg.org/) (video to frames)
+  - [Upscayl](https://upscayl.org/) (upscale frames)
+  - [GIMP](https://www.gimp.org/) (background removal)
+  - [ImageMagick](https://imagemagick.org/) (compose animated webp)
 
 ## [Demo](https://guyutongxue.site/shigure-ui-dance-css)
 
@@ -14,7 +15,7 @@ Transition your CSS color theme with Shigure Ui-chan's dance. Inspired by [Salty
 
 - Make your default CSS color theme **light**.
 - Write dark-color-scheme styles under `.dark` class.
-- `@import` or `<link>` CSS `TODO` into your project.
+- `@import` or `<link>` CSS into your project: `https://cdn.jsdelivr.net/gh/Guyutongxue/shigure-ui-dance-css@main/transition.css`
 - Use following JavaScript to toggle the theme:
 
 ```js
